@@ -58,7 +58,7 @@ function main(event,movie){
     var movie = movie
 
     $.ajax({
-        url: "http://www.omdbapi.com/?t=" + movie + "&apikey=69a48cda",
+        url: "https://www.omdbapi.com/?t=" + movie + "&apikey=69a48cda",
         method: "GET",
         async: true
     }).then(function (res) {
